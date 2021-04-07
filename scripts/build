@@ -18,6 +18,7 @@ fi
 pushd $BD > /dev/null
 echo -e "$SCRIPT: git pull => $BRANCH"
 git pull
+COMMIT=`git log --oneline | head -1`
 iferr echo -e "$SCRIPT: fetch suttacentral/$BRANCH (ERROR)"; exit -1; fi
 if [ -e gitlog.txt ]; then
   echo -e "$SCRIPT: cleaning up gitlog.text"
@@ -25,14 +26,16 @@ if [ -e gitlog.txt ]; then
 fi
 popd
 
-cp $BD/*.json .
-cp -r $BD/root .
+cp -u $BD/*.json .
+cp -u -r $BD/root .
 rm -rf root/lzh
-cp -r $BD/translation .
+cp -u -r $BD/translation .
+git prune
 
 git add .
-git commit -am "SuttaCentral Update" 
-echo -e "$SCRIPT: Committed $BRANCH changes" 
+MSG="$SCRIPT: bilara-data $COMMIT"
+git commit -am "$MSG"
+echo -e "$MSG"
 
 if [ "$1" == "PUSH" ]; then
   echo -e "$SCRIPT: pushing $BRANCH changes..." 
