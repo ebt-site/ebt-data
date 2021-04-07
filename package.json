@@ -1,6 +1,6 @@
 {
   "name": "ebt-data",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Pruned copy of suttacentra/bilara-data",
   "main": "index.js",
   "scripts": {
