@@ -1,8 +1,12 @@
 This is a data repository based on a filtered copy of 
-[suttacentral/bilara-data](https://github.com/suttacentral/bilara-data),
-pruned to the minimal set required by EBT-Site.
-The repository is refreshed periodically with Github Actions.
+the _published_ branch of
+[suttacentral/bilara-data](https://github.com/suttacentral/bilara-data).
+The repository is refreshed periodically with Github Actions
+that copy selected information from `bilara-data`.
+The copied data is pruned to the minimal set required by EBT-Site.
 
-This repository is also the primary source for information not stored in bilara-data:
+In addition to having information from `bilara-data`, 
+this repository is also the primary source for 
+the following information which is not stored in `bilara-data`:
 
 * EBT-Site examples 
