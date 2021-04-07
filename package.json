@@ -1,0 +1,24 @@
+{
+  "name": "ebt-data",
+  "version": "1.0.0",
+  "description": "Pruned copy of suttacentra/bilara-data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ebt-site/ebt-data.git"
+  },
+  "keywords": [
+    "suttacentral",
+    "bilara-data",
+    "ebt-site"
+  ],
+  "author": "Karl Lew",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ebt-site/ebt-data/issues"
+  },
+  "homepage": "https://github.com/ebt-site/ebt-data#readme"
+}

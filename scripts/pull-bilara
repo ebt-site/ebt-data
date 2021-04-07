@@ -1,0 +1,55 @@
+#!/bin/bash
+DIR=`dirname $0`
+SCRIPT=`basename $0 | tr abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ`
+BRANCH=$1
+
+shopt -s expand_aliases
+alias iferr='if [ "$?" != "0" ]; then '
+
+echo -e "$SCRIPT\t: $0 DIR:$DIR"
+if [ "$BRANCH" == "" ]; then BRANCH=unpublished; fi
+pushd ${DIR}/../local/bilara-data > /dev/null
+echo -e "$SCRIPT\t: BRANCH:$BRANCH pwd:"`pwd`
+
+git remote -v | grep "upstream" > /dev/null
+RC=$?
+if [ "$RC" == "0" ]; then
+  echo -e "$SCRIPT\t: upstream remote found (OK)"
+elif git remote -v | grep suttacentral > /dev/null; then
+  echo -e "$SCRIPT\t: suttacentral remote found (OK)"
+else
+  echo -e "$SCRIPT\t: adding suttacentral remote"
+  git remote add suttacentral https://github.com/suttacentral/bilara-data.git
+fi
+git fetch
+if git checkout $BRANCH >& /dev/null; then
+  echo -e "$SCRIPT\t: on $BRANCH branch" 
+else
+  echo -e "$SCRIPT\t: fetching $BRANCH branch" 
+  git checkout --track origin/$BRANCH 
+fi
+
+if [ -e gitlog.txt ]; then
+  echo -e "$SCRIPT\t: cleaning up gitlog.text"
+  rm gitlog.txt
+fi
+
+echo -e "$SCRIPT\t: Refreshing sc-voice/$BRANCH ..." 
+git pull origin 
+iferr echo -e "$SCRIPT\t: git pull origin failed (ERROR)"; exit -1; fi
+
+echo -e "$SCRIPT\t: Refreshing suttacentral/$BRANCH ..."
+git fetch suttacentral
+iferr echo -e "$SCRIPT\t: fetch suttacentral/$BRANCH (ERROR)"; exit -1; fi
+git merge -Xtheirs --no-edit suttacentral/$BRANCH
+iferr echo -e "$SCRIPT\t: merge suttacentral/$BRANCH (ERROR)"; exit -1; fi
+
+echo -e "$SCRIPT\t: Committing $BRANCH changes to bilara-data..." 
+git commit -am "SuttaCentral Update" 
+git push
+iferr echo -e "$SCRIPT\t: push suttacentral/$BRANCH (ERROR)"; exit -1; fi
+
+popd
+pushd $DIR/..
+
+echo -e "$SCRIPT\t: DONE"
