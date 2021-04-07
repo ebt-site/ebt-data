@@ -2,54 +2,70 @@
 DIR=`dirname $0`
 SCRIPT=`basename $0 | tr abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ`
 BRANCH=$1
+if [ "$BRANCH" == "" ]; then BRANCH=published; fi
+cd $DIR/..
+BD=local/bilara-data
 
 shopt -s expand_aliases
 alias iferr='if [ "$?" != "0" ]; then '
 
-echo -e "$SCRIPT\t: $0 DIR:$DIR"
+if [ ! -e $BD ]; then
+  echo -e "$SCRIPT: cloning suttacentral/bilara-data"
+  mkdir -p local
+  git clone https://github.com/suttacentral/bilara-data $BD
+fi
+
+pushd $BD > /dev/null
+git pull
+iferr echo -e "$SCRIPT: fetch suttacentral/$BRANCH (ERROR)"; exit -1; fi
+
+pwd
+exit 
+
+echo -e "$SCRIPT: $0 DIR:$DIR"
 if [ "$BRANCH" == "" ]; then BRANCH=unpublished; fi
 pushd ${DIR}/../local/bilara-data > /dev/null
-echo -e "$SCRIPT\t: BRANCH:$BRANCH pwd:"`pwd`
+echo -e "$SCRIPT: BRANCH:$BRANCH pwd:"`pwd`
 
 git remote -v | grep "upstream" > /dev/null
 RC=$?
 if [ "$RC" == "0" ]; then
-  echo -e "$SCRIPT\t: upstream remote found (OK)"
+  echo -e "$SCRIPT: upstream remote found (OK)"
 elif git remote -v | grep suttacentral > /dev/null; then
-  echo -e "$SCRIPT\t: suttacentral remote found (OK)"
+  echo -e "$SCRIPT: suttacentral remote found (OK)"
 else
-  echo -e "$SCRIPT\t: adding suttacentral remote"
+  echo -e "$SCRIPT: adding suttacentral remote"
   git remote add suttacentral https://github.com/suttacentral/bilara-data.git
 fi
 git fetch
 if git checkout $BRANCH >& /dev/null; then
-  echo -e "$SCRIPT\t: on $BRANCH branch" 
+  echo -e "$SCRIPT: on $BRANCH branch" 
 else
-  echo -e "$SCRIPT\t: fetching $BRANCH branch" 
+  echo -e "$SCRIPT: fetching $BRANCH branch" 
   git checkout --track origin/$BRANCH 
 fi
 
 if [ -e gitlog.txt ]; then
-  echo -e "$SCRIPT\t: cleaning up gitlog.text"
+  echo -e "$SCRIPT: cleaning up gitlog.text"
   rm gitlog.txt
 fi
 
-echo -e "$SCRIPT\t: Refreshing sc-voice/$BRANCH ..." 
+echo -e "$SCRIPT: Refreshing sc-voice/$BRANCH ..." 
 git pull origin 
-iferr echo -e "$SCRIPT\t: git pull origin failed (ERROR)"; exit -1; fi
+iferr echo -e "$SCRIPT: git pull origin failed (ERROR)"; exit -1; fi
 
-echo -e "$SCRIPT\t: Refreshing suttacentral/$BRANCH ..."
+echo -e "$SCRIPT: Refreshing suttacentral/$BRANCH ..."
 git fetch suttacentral
-iferr echo -e "$SCRIPT\t: fetch suttacentral/$BRANCH (ERROR)"; exit -1; fi
+iferr echo -e "$SCRIPT: fetch suttacentral/$BRANCH (ERROR)"; exit -1; fi
 git merge -Xtheirs --no-edit suttacentral/$BRANCH
-iferr echo -e "$SCRIPT\t: merge suttacentral/$BRANCH (ERROR)"; exit -1; fi
+iferr echo -e "$SCRIPT: merge suttacentral/$BRANCH (ERROR)"; exit -1; fi
 
-echo -e "$SCRIPT\t: Committing $BRANCH changes to bilara-data..." 
+echo -e "$SCRIPT: Committing $BRANCH changes to bilara-data..." 
 git commit -am "SuttaCentral Update" 
 git push
-iferr echo -e "$SCRIPT\t: push suttacentral/$BRANCH (ERROR)"; exit -1; fi
+iferr echo -e "$SCRIPT: push suttacentral/$BRANCH (ERROR)"; exit -1; fi
 
 popd
 pushd $DIR/..
 
-echo -e "$SCRIPT\t: DONE"
+echo -e "$SCRIPT: DONE"
