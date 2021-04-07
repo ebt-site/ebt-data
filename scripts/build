@@ -1,0 +1,42 @@
+#!/bin/bash
+DIR=`dirname $0`
+SCRIPT=`basename $0 | tr abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ`
+BRANCH=$1
+if [ "$BRANCH" == "" ]; then BRANCH=published; fi
+cd $DIR/..
+BD=local/bilara-data
+
+shopt -s expand_aliases
+alias iferr='if [ "$?" != "0" ]; then '
+
+if [ ! -e $BD ]; then
+  echo -e "$SCRIPT: cloning suttacentral/bilara-data"
+  mkdir -p local
+  git clone https://github.com/suttacentral/bilara-data $BD
+fi
+
+pushd $BD > /dev/null
+echo -e "$SCRIPT: git pull => $BRANCH"
+git pull
+iferr echo -e "$SCRIPT: fetch suttacentral/$BRANCH (ERROR)"; exit -1; fi
+if [ -e gitlog.txt ]; then
+  echo -e "$SCRIPT: cleaning up gitlog.text"
+  rm gitlog.txt
+fi
+popd
+
+cp $BD/*.json .
+cp -r $BD/root .
+rm -rf root/lzh
+cp -r $BD/translation .
+
+git add .
+git commit -am "SuttaCentral Update" 
+echo -e "$SCRIPT: Committed $BRANCH changes" 
+
+if [ "$1" == "PUSH" ]; then
+  echo -e "$SCRIPT: pushing $BRANCH changes..." 
+  git push
+fi
+
+echo -e "$SCRIPT: DONE"
