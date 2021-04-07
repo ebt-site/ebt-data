@@ -11,4 +11,4 @@ jobs:
           fetch-depth: 0
       - run: git config --global user.name github-actions
       - run: git config --global user.email github-actions@github.com
-      - run: .scripts/pull-upstream.sh PUSH
+      - run: scripts/build PUSH
