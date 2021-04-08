@@ -31,8 +31,9 @@ git prune
 git add .
 MSG="$SCRIPT: bilara-data $COMMIT"
 echo "$MSG"
+echo "1"
 git commit -am "$MSG"
-echo asdf
+echo "2"
 
 if [ "$1" == "PUSH" ]; then
   echo -e "$SCRIPT: pushing $BRANCH changes..." 
