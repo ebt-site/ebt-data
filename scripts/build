@@ -29,7 +29,8 @@ rm -rf root/lzh
 cp -u -r $BD/translation .
 git prune
 git add .
-MSG="$SCRIPT: bilara-data [$COMMIT]"
+sleep 1
+MSG="$SCRIPT: bilara-data $COMMIT"
 echo "$MSG"
 git commit -am "$MSG"
 
