@@ -29,11 +29,9 @@ rm -rf root/lzh
 cp -u -r $BD/translation .
 git prune
 git add .
-MSG="$SCRIPT: bilara-data $COMMIT"
-echo "$MSG"
-echo "1"
+MSG="sync to bilara-data $COMMIT"
+echo "$SCRIPT: $MSG"
 git commit -am "$MSG"
-echo "2"
 
 if [ "$1" == "PUSH" ]; then
   echo -e "$SCRIPT: pushing $BRANCH changes..." 
