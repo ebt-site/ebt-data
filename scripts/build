@@ -29,9 +29,8 @@ rm -rf root/lzh
 cp -u -r $BD/translation .
 git prune
 git add .
-sleep 1
 MSG="$SCRIPT: bilara-data $COMMIT"
-echo "$MSG"
+echo -e "$MSG\n"
 git commit -am "$MSG"
 
 if [ "$1" == "PUSH" ]; then
