@@ -20,7 +20,7 @@ echo -e "$SCRIPT: $BD> git pull"
 git pull
 COMMIT=`git log --oneline | head -1`
 iferr echo -e "$SCRIPT: fetch suttacentral/$BRANCH (ERROR)"; exit -1; fi
-popd
+popd > /dev/null
 
 echo "$SCRIPT: updating ebt-data from bilara-data"
 cp -u $BD/*.json .
