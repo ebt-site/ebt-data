@@ -1,8 +1,8 @@
 #!/bin/bash
 DIR=`dirname $0`
-SCRIPT=`basename $0 | tr abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ`
-BRANCH=$1
-if [ "$BRANCH" == "" ]; then BRANCH=published; fi
+SCRIPT="---`basename $0 | tr abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ`---"
+PUSH=$1
+BRANCH=published
 cd $DIR/..
 BD=local/bilara-data
 
@@ -16,7 +16,7 @@ if [ ! -e $BD ]; then
 fi
 
 pushd $BD > /dev/null
-echo -e "$SCRIPT: git pull => $BRANCH"
+echo -e "$SCRIPT: $BD> git pull"
 git pull
 COMMIT=`git log --oneline | head -1`
 iferr echo -e "$SCRIPT: fetch suttacentral/$BRANCH (ERROR)"; exit -1; fi
