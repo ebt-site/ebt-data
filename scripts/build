@@ -20,12 +20,9 @@ echo -e "$SCRIPT: $BD> git pull"
 git pull
 COMMIT=`git log --oneline | head -1`
 iferr echo -e "$SCRIPT: fetch suttacentral/$BRANCH (ERROR)"; exit -1; fi
-if [ -e gitlog.txt ]; then
-  echo -e "$SCRIPT: cleaning up gitlog.text"
-  rm gitlog.txt
-fi
 popd
 
+echo "$SCRIPT: updating $DIR"
 cp -u $BD/*.json .
 cp -u -r $BD/root .
 rm -rf root/lzh
