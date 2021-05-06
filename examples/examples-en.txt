@@ -82,7 +82,7 @@ conducive to immersion
 conscience and prudence
 convergence
 correctly memorized
-cow took life
+cow.*took.*life
 craving for touches
 craving is given up
 creating harmony
