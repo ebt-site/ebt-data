@@ -29,7 +29,6 @@ bedingte.* Erscheinungen
 begrenzte Versenkung und Weisheit
 beide.* Enden
 beim Einatmen Wonne
-bei Tag und Nacht, bei Nacht und Tag
 bemüht.*, damit
 besser.* erlesener
 beträchtliches Vermögen
@@ -299,6 +298,7 @@ noch etwas übrig bleibt
 noch für alle äußeren Reize
 nur einen Bissen
 nur mir sollte man Gaben
+ob bei Tag oder bei Nacht
 Ochse, der gerne die Saat frisst
 ohne die Muster
 ohne Ursache oder Grund
