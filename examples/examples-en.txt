@@ -229,6 +229,7 @@ has ceased
 has not been declared
 have a lie down
 have a reaction
+have been someone else
 having few wishes
 head hair, body hair
 head on fire
