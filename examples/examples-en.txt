@@ -257,7 +257,7 @@ have a reaction
 have been someone else
 having few wishes
 head hair, body hair
-head on fire
+head w.* on fire
 heard of anyone holding
 heart of love
 heart’s release by love
