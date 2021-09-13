@@ -47,6 +47,7 @@ besser.* erlesener
 beträchtliches Vermögen
 Bett der Götter
 Bevorzugen und Zurückweisen
+Bevorzugung
 bewacht.* die Tore der Sinne
 bewerte
 bist du, Zerstörer
@@ -492,7 +493,6 @@ von Zorn gepackt
 vor alten Brahmanen
 voreingenommen
 vor langer Zeit getan oder gesagt
-Vorliebe, Abneigung, Dummheit
 während sie aufkommen
 Wahrnehmung des Hässlichen
 Wahrnehmung von Licht
