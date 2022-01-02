@@ -426,7 +426,7 @@ Schweiß.* Angesichts
 schwer einatmet, weiß
 schwer zu erfassen
 schwer zu erfüllen
-schwer zu erreichen
+schwer.* zu erreichen
 schwer zu finden
 schwer zu sehen
 schwieg der Buddha
