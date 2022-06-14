@@ -69,7 +69,6 @@ bewacht.* die Tore der Sinne
 bewerte
 Bewusstsein verankert
 Bezugspunkte
-bin ich dem besten begegnet
 bist du, Zerstörer
 blau Seerosen
 bloßem Vertrauen
@@ -295,6 +294,7 @@ gut genug
 gut, Schwester
 Haare.* zu Berge
 haarsträubend
+hab' ich das beste getroffen
 Harfe
 hast du Vertrauen
 hat.* aufgehört
