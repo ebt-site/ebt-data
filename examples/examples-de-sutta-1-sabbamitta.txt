@@ -44,6 +44,7 @@ Ausdruck für Sinnenfreuden
 äußerlich gefesselt
 ausgeht und zurückkommt
 aus meiner unmittelbaren Einsicht heraus gelehrt
+Bangigkeit
 Bauer
 bedingte.* Erscheinungen
 Bedingungen müssen vergehen
@@ -58,7 +59,6 @@ Beruhigen.* aller Vorgänge
 beschließen ihren Weg
 Beschützer
 besitzt vier Grundlagen
-Besorgnis
 besser.* erlesener
 besteht ein Klargewordener
 betrachtet die Erscheinungen
@@ -183,6 +183,7 @@ einen einzigen Geschmack
 einen gierigen Geist
 einen Schilfhalm aus seiner Scheide
 einen Versenkungszustand
+eine Wahrnehmung aufkommt
 eingeäschert
 eingeschätzt
 ein Lehrer mit Namen Sunetta
@@ -200,6 +201,7 @@ Ende der Welt
 Ende des Körpers nahen
 Enden der Taten
 Entscheidungen als
+Entscheidungen sind Leiden
 entwickelt die Grundlage der Wunderkräfte
 erbärmlich
 Erde, Wasser, Feuer und Luft
@@ -340,6 +342,7 @@ ihr Spiegelbild betrachten
 im Verlangen nach materiellem Besitz
 in äußeren Dingen
 in bester Absicht
+in den drei Zeiten
 in der dunklen Nacht im Freien
 in der Lage, die Lehre zu verstehen
 in die Pflicht
@@ -358,6 +361,7 @@ isst wissentlich Fleisch
 ist Augenberührung beständig
 ist es wirklich wahr
 ist etwas anderes
+ist nicht-selbst
 jegliche Art von Form
 jemand anderen vom Geben abhält
 jetzt, alt
@@ -461,6 +465,7 @@ neun Faktoren
 nicht anders
 nicht auf mündliche Überlieferung
 nicht beschämend
+nicht euer
 nicht möglich, das Ende der Welt
 nichts ist es wert, daran festzuhalten
 nicht unterrichten oder anleiten
@@ -705,7 +710,7 @@ wie eine Kuh
 wie ein Tautropfen
 wie ein Vogel
 wie Garn
-wie könnte es.* sein
+wie könnte es möglich sein
 wie wenn es auf einem Berggipfel stark regnet
 wie ein Affe
 wie wächst ein Kind
