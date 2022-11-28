@@ -74,6 +74,7 @@ Bezugspunkte
 bist du, Zerstörer
 blau Seerosen
 bloßem Vertrauen
+Bogenharfe
 bösartige Unholde
 brach in Tränen aus
 brutal
@@ -323,7 +324,6 @@ gut, Schwester
 Haare.* zu Berge
 haarsträubend
 bei der besten angekommen
-Harfe
 hässlich und entstellt
 hast du Vertrauen
 hat.* aufgehört
