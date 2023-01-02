@@ -57,6 +57,7 @@ Bedingungen sind unbeständig
 Beenden des Verlangens ist Erlöschen
 begrenzte Versenkung und Weisheit
 beide.* Enden
+bei der besten angekommen
 beim Einatmen Seligkeit
 bemüht.*, damit
 Benommenheit
@@ -316,6 +317,7 @@ gibt in dem Gedanken
 gibt und bedenkt
 Giftschlange
 Glaube.* an eine Persönlichkeit
+glaubst du an
 Glück, das ohne Tadel ist
 Glück der Entsagung
 Glück und Schmerz sind ewig
@@ -330,9 +332,7 @@ gut genug
 gut, Schwester
 Haare.* zu Berge
 haarsträubend
-bei der besten angekommen
 hässlich und entstellt
-hast du Vertrauen
 hat.* aufgehört
 hätte einen rechtmäßigen Grund
 hätte wieder Appetit
