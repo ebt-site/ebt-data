@@ -656,7 +656,7 @@ Vergnügen an Entscheidungen
 Verlangen aufgegeben
 Verlangen nach Berührungen
 Verlangen wird.* aufgegeben
-verlasse mich darauf
+verlasse.* darauf
 verloren, wenn er stirbt
 vernünftiger erwachsener
 verpasste Gelegenheit
