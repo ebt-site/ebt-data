@@ -311,6 +311,7 @@ geschlossene Faust eines Lehrers
 Gesetzmäßigkeiten klar
 Gesetzmäßigkeiten mit Weisheit erforscht
 gesichert
+gesträubten Haare
 Gesundheit ist
 Gewinn und Verlust
 gewissenhaft und gütig
@@ -336,7 +337,7 @@ gut befreit
 gute Freunde, Genossen und Gefährt
 gut genug
 gut, Schwester
-Haare.* zu Berge
+Haare.* sträub
 haarsträubend
 hässlich und entstellt
 hat.* aufgehört
@@ -481,7 +482,6 @@ mit Enthaltsamkeit als fünfter
 mit freundlichen Augen
 mit ganzem Herzen dabei
 mitgenommen, leidend, schwer krank
-mit gesträubten Haaren
 mit hängenden Schultern
 mithilfe eines Gleichnisses
 mit ihrem Geist erfasst
