@@ -428,7 +428,6 @@ Kopfhaare, Körperhaare
 Kopf in Flammen
 Kopf zu den Füßen des Buddha
 Kosmologe
-Knochensack
 Krabbe
 Kraft der Weisheit
 Kraft des Vertrauens
@@ -555,6 +554,7 @@ Roben aus Hanf
 Rosenapfel
 roten Kapok-Wald
 rufe alle Mönche und Nonnen
+Sack voll Knochen
 sag.* die Wahrheit
 Sammlung und Klarsicht
 Sanfteste der Sanften
