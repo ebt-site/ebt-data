@@ -442,6 +442,7 @@ Krankheit.* Eiterherd.* Pfeil
 Kräuter, Hirse
 Kreislauf der Wiedergeburten
 Kriechtieren abzuhalten
+krittelige[nm] Geist
 Kuh.* das Leben
 Kuhhirt
 kühl geworden, voller Seligkeit
@@ -531,7 +532,6 @@ niemals.* zufriedengeben
 nimm meinen Fehler
 noch etwas übrig
 noch so lange leben
-nörgelnde[mn] geist
 nur einen Bissen
 nur mir sollte man Gaben
 Nymphen
