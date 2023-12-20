@@ -4,6 +4,7 @@
   "description": "Pruned copy of suttacentra/bilara-data",
   "main": "index.js",
   "scripts": {
+    "build": "scripts/build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
