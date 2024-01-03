@@ -195,7 +195,6 @@ edle rechte Versenkung mit fünf
 eigene Insel
 ein abgebrühter Mörder
 einäugige Schildkröte
-eindeutig
 ein Ding muss entwickelt werden
 eine Bedingung für Alter und Tod
 eine fleckenlose Seligkeit
@@ -426,6 +425,7 @@ jemand anderen vom Geben abhält
 jetzt, alt
 Kanal zur Wiedergeburt
 Kassapa der Prinz
+kategorisch
 keine Angst, Gutes zu tun
 keine Asche und kein Ruß
 keine guten Menschen da
