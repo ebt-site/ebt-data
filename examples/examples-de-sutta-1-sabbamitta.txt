@@ -351,6 +351,7 @@ gut genug
 gut, Schwester
 Haare.* sträub
 haarsträubend
+haltlos werden
 hässlich und entstellt
 hat.* aufgehört
 hätte einen rechtmäßigen Grund
@@ -612,7 +613,6 @@ selbst versteh
 sich eine Zuflucht bereiten
 sicher jemand anders
 sicher nicht
-sich vermischen
 sieben Dinge.* entwickelt werden
 sieben Gelübde
 sieben Tage mit gekreuzten Beinen
