@@ -154,7 +154,6 @@ die Kugel aus Seifenpulver
 dieser Körper hat dieselbe Natur
 dieses Lebewesen
 diese Spende gebe
-dieses verdammte Ding
 diese Versenkung
 diese.* vier edlen Wahrheiten
 die Sittlichkeit eines Menschen
@@ -682,7 +681,9 @@ Ursprung der Welt
 Urteil über Menschen
 Verantwortung
 verbindliches, kategorisches Löwengebrüll
+verdammt
 veredelt und nährt den Geist
+verflucht sei
 Vergehen der Erscheinungen
 Vergnügen an Entscheidungen
 Verlangen aufgegeben
