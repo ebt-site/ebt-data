@@ -226,7 +226,6 @@ ein Pfahlhaus an dem Platz im Zentrum
 ein Schmuck und ein Bestandteil
 Einswerden
 ein Rest
-ein tiefer See, der von einer Quelle gespeist
 Eintracht geschaffen
 Elefant in der Wildnis
 Element de
@@ -727,6 +726,7 @@ von Geburt an blind
 von Groll los
 von keiner Seite etwas zu befürchten
 von Kopf bis Fuß in ein weißes Tuch
+von Quellwasser gespeist
 von Sprache
 von Zorn überwältigt
 vor alten Brahmanen
