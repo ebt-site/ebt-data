@@ -222,7 +222,6 @@ ein Lehrer mit Namen Sunetta
 einnicken
 ein paar Jungen
 ein paar Palisanderblätter
-ein Pfahlhaus an dem Platz im Zentrum
 ein Schmuck und ein Bestandteil
 Einswerden
 ein Rest
@@ -801,6 +800,7 @@ wie Garn
 wie könnte es möglich sein
 wie wenn auf einem Berggipfel der Regen
 wie ein Affe
+wie Menschen ein Haus betreten oder verlassen
 wie wächst ein Kind
 wilde[sn] Fohlen
 Winde wehen nicht
