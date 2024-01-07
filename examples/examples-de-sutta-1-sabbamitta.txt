@@ -185,7 +185,6 @@ Dunkelheit.* und Licht
 Dunklen, die für das Helle bestimmt
 Durchbruch
 durch die Versenkung geläutert
-durch die Wüste entlangwanderte
 durch Nahrung erhalten
 durch Vertrauen befreit
 durch Weisheit befreit
@@ -632,6 +631,7 @@ Spuren seiner Finger
 Staub, der gegen den Wind
 steckt nicht in der Mitte
 stets wirkt und nie versagt
+Straße durch die Wüste
 streitet man
 Strudel
 stufenweise Schulung
