@@ -398,6 +398,30 @@
     "creator_github_handle": "Piyadassii"
   },
   {
+    "project_uid": "mn_ms_translation_mangala",
+    "name": "Mongolian sutta translation",
+    "root_path": "root/pli/ms/sutta",
+    "translation_path": "translation/mn/mangala/sutta",
+    "translation_muids": "translation-mn-mangala",
+    "creator_github_handle": "kkhangal"
+  },
+  {
+    "project_uid": "my_blurb_translation",
+    "name": "Burmese blurb translation",
+    "root_path": "root/en/blurb",
+    "translation_path": "translation/my/blurb",
+    "translation_muids": "translation-my",
+    "creator_github_handle": "amaung"
+  },
+  {
+    "project_uid": "my_localization",
+    "name": "Burmese localization",
+    "root_path": "root/en/site",
+    "translation_path": "translation/my/site",
+    "translation_muids": "translation-my-site",
+    "creator_github_handle": "amaung"
+  },  
+  {
     "project_uid": "my_ms_translation_my-team",
     "name": "Burmese translation",
     "root_path": "root/pli/ms/sutta/dn",
@@ -407,6 +431,14 @@
       "NyeinChanAye",
       "ashinsarana"
     ]
+  },
+  {
+    "project_uid": "my_names_translation",
+    "name": "Burmese names translation",
+    "root_path": "root/misc/site",
+    "translation_path": "translation/my/site",
+    "translation_muids": "translation-my-site",
+    "creator_github_handle": "amaung"
   },
   {
     "project_uid": "nys_ms_translation_buddhadassa",
