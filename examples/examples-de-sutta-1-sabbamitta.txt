@@ -166,6 +166,7 @@ diese.* vier edlen Wahrheiten
 die Sittlichkeit eines Menschen
 die Sorgen vieler zerstört
 die Tore zur Unsterblichkeit
+die Unbeständigkeit aller Bedingungen
 die Unbeständigkeit des Gefühls
 die Unbeständigkeit von Bildern
 die Unbeständigkeit von Vorstellungen
@@ -688,7 +689,6 @@ unbarmherzig
 unbedingt
 unbeschwert sein
 Unbeständiges als beständig
-Unbeständigkeit aller Bedingungen beobachte
 Unbeständigkeit von Bedingungen
 und wenn ich daran sterben würde
 ungerichtet
