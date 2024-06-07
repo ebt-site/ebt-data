@@ -144,7 +144,7 @@ crown property
 cruel
 cultivation of immersion
 cycle of rebirth
-damn this thing
+damn
 dark bound for light
 darkness.* destroyed
 darkness vanished
@@ -386,6 +386,7 @@ in a qualified sense
 in a secure location
 in charge
 infer to the past and future
+inflict
 back to the past
 for the future
 incinerated
