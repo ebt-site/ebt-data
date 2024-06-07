@@ -86,6 +86,7 @@ Bezugspunkte
 bis mein Geist
 bist du, Zerstörer
 blau Seerosen
+Blitz
 Bodensatz
 Bogenharfe
 bösartige Unholde
@@ -821,7 +822,6 @@ Wiedergeburtsklassen
 wie der Mond
 wie der Mond, der durch die Wolken bricht
 wieder und wieder
-wie ein Blitz
 wie eine Kuh
 wie ein Hund
 wie ein Tautropfen
