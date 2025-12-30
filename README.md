@@ -10,4 +10,4 @@ this repository is also the primary source for
 the following information which is not stored in `bilara-data`:
 
 * EBT-Site examples 
-* Other EBT translations compatible SuttaCentral JSON source format not hosted on SuttaCentral.net
+* Other EBT translations aligned to SuttaCentral JSON source format:q

@@ -1,21 +1,22 @@
-MIT License
+# License
 
-Copyright (c) 2021 SuttaCentral Voice
+This repository contains Buddhist texts and translations from SuttaCentral's bilara-data repository.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+## Data License (CC0)
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+All Buddhist texts and translations in this repository are released into the public domain under the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/). You are free to use, modify, and distribute this content for any purpose without restriction.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+## Source
+
+This repository is a filtered copy of the [suttacentral/bilara-data](https://github.com/suttacentral/bilara-data) published branch, pruned to minimal data required by EBT-Site.
+
+## Attribution
+
+While not legally required under CC0, attribution to the original translators and SuttaCentral is appreciated. See individual text metadata for translator information.
+
+## Original Copyright
+
+Translations in SuttaCentral's bilara-data may have had various original copyright statuses. All are released under CC0 per SuttaCentral licensing requirements.
+
+### French (fr)
+- Noé Ismet (noeismet): French translations of suttas (2025)
