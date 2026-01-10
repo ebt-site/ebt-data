@@ -205,7 +205,8 @@
   },
   "sabbamitta": {
     "type": "translator",
-    "name": "Sabbamitta"
+    "name": "Sabbamitta",
+    "url": "https://dhammaregen.net"
   },
   "sekha": {
     "type": "translator",
@@ -229,7 +230,8 @@
   },
   "sujato": {
     "type": "translator",
-    "name": "Bhikkhu Sujato"
+    "name": "Bhikkhu Sujato",
+    "url": "https://suttacentral.net"
   },
   "sumano": {
     "type": "translator",
